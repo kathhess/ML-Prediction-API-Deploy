@@ -16,6 +16,7 @@ The following repository is a small project undertaken to re-work and deploy a .
 - `$ python app.py NNNN` launches and runs our Flask application on port NNNN (host 0.0.0.0); alternatively, port can be specified on PORT environment variable (otherwise defaults to 5001)
 - Error handling implemented to return custom status codes for 400, 404, 500 and incorrect model variables passed on URL parameters
 - Heroku application is integrated with Github so that updates deploy to live endpoint: 
+https://sample-ml-model-deploy.herokuapp.com/
 
 ## .ipynb
 The original .ipynb & dataset used to train this model can be found at /reference
@@ -55,8 +56,14 @@ $ python app.py 5000
 **Training:**
 Open http://0.0.0.0:5000/train in your browser.
 
-**Predition:**
+**Prediction:**
 Sample request: http://0.0.0.0:5000/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
 
 ## Deployed Rest API
+
+**Training:**
+https://sample-ml-model-deploy.herokuapp.com/train
+
+**Prediction:**
+Sample request: https://sample-ml-model-deploy.herokuapp.com/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
 
