@@ -124,6 +124,7 @@ def year(data):
     # Our reference year is 2011, the beginning of the training dataset
     return (data["dteday"].dt.year - 2011).to_frame()
 
+
 if __name__ == "__main__":
     print(
         predict(
