@@ -56,14 +56,14 @@ $ python app.py 5000
 **Training:**
 Open http://0.0.0.0:5000/train in your browser.
 
-**Prediction:**
-Sample request: http://0.0.0.0:5000/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
+**Sample Prediction:**
+http://0.0.0.0:5000/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
 
 ## Deployed Rest API
 
 **Training:**
 https://sample-ml-model-deploy.herokuapp.com/train
 
-**Prediction:**
-Sample request: https://sample-ml-model-deploy.herokuapp.com/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
+**Sample Prediction:**
+https://sample-ml-model-deploy.herokuapp.com/predict?date=2012-11-01&hour=10&weather_situation=clear&temperature=0.3&feeling_temperature=0.31&humidity=0.8&windspeed=0.0
 
